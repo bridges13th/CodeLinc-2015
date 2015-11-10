@@ -1,0 +1,33 @@
+
+p{
+    font-size: 30px;
+   color:white;
+   font-weight: bold;
+    font-style: italic;
+}
+
+td.description{
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+    font-size: 25px;
+    color:white;
+    font-style: oblique;
+     
+}
+
+table{
+margin: 100px;    
+}
+h1{
+    float: inherit;
+    text-decoration: underline;
+}
+
+html{
+    
+    text-align: center;
+    background-color: #126e8b;
+}

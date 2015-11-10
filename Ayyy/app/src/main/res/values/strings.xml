@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OutOfGarden</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pledge">Pledge</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_campaign1">campaign1</string>
+    <string name="prof">Your Profile</string>
+    <string name="title_activity_camp1">camp1</string>
+    <string name="title_activity_main22">Main22Activity</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#49889c">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:id="@+id/editText2"
+        android:layout_marginTop="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:layout_below="@+id/pnumber"
+        android:layout_centerHorizontal="true"
+        android:text="Email"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/description"
+        android:layout_below="@+id/email"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email"
+        android:text="What do you want to pledge?"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/pnumber"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:text="Phone Number"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/echeckBox"
+        android:layout_alignRight="@+id/echeckBox"
+        android:layout_alignEnd="@+id/echeckBox"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email List?"
+        android:id="@+id/echeckBox"
+        android:layout_below="@+id/description"
+        android:layout_alignLeft="@+id/pnumber"
+        android:layout_alignStart="@+id/pnumber"
+        android:layout_marginTop="33dp"
+        android:checked="false"
+        android:textColor="#ffff"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/oooooo"
+        android:layout_alignTop="@+id/submit"
+        android:layout_toLeftOf="@+id/submit"
+        android:layout_toStartOf="@+id/submit"/>
+
+</RelativeLayout>
